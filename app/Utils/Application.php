@@ -68,7 +68,7 @@ class Application
 
         // You can optionnally add a try/catch here to handle Exceptions
         // Instanciate the dispatcher, give it the $match variable and a fallback action
-        $dispatcher = new Dispatcher($match, $this->controllersNamespace . '\MainController::home');
+        $dispatcher = new Dispatcher($match, $this->controllersNamespace . '\ErrorController::error404');
 
         // Send arguments to controllers
         // So we can stop using global keyword :-)

@@ -6,7 +6,7 @@
 
 $this->addRoute(
     'GET',
-    '/accueil',
+    '/',
     'MainController',
     'home',
     'main-home'

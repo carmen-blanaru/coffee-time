@@ -3,9 +3,10 @@
 namespace App\Controllers;
 
 
-class CoreController
+abstract class CoreController
 {
     protected $router;
+    private $currentRouteName;
 
 public function __construct($router, $match)
 {
