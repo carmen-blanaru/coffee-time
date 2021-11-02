@@ -23,4 +23,4 @@ Le front sera développé en utilisant le framework Bootstrap.
 
 ### Important 
 
-Le projet n'a pas vocation à être en ligne car les photos utilisées ne sont pas libres de droit. Ceci est un projet purement pédagogique.
+Les photos utilisées pour ce projet sont libres de droits. Elles ont été téléchargées depuis les sites : https://pixabay.com et https://www.istockphoto.com
