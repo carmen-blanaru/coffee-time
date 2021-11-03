@@ -1,5 +1,6 @@
 {
     "require": {
+        "php": "^7.4",
         "symfony/var-dumper": "^5.0",
         "altorouter/altorouter": "^2.0",
         "benoclock/alto-dispatcher": "^1.3"

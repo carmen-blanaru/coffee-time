@@ -10,12 +10,12 @@ class MainController extends CoreController
     /**
      * Method for the home page
      */
-    public function home()
+    public function homepage()
     {
-       $title = "Bonjour!";
+       $title = "Bienvenue!";
         // For now, this page only needs the view
        $this->show('main/home', [
-           "title" => $title,
+           'title' => $title
        ]);
     }
 }

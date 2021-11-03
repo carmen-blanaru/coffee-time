@@ -8,7 +8,7 @@ $this->addRoute(
     'GET',
     '/',
     'MainController',
-    'home',
+    'homepage',
     'main-home'
 
 );
