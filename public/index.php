@@ -11,4 +11,5 @@ session_start();
 
 // On lance l'application
 $app = new Application('\App\Controllers');
+
 $app->run();

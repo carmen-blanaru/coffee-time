@@ -10,7 +10,7 @@ class MainController extends CoreController
     /**
      * Method for the home page
      */
-    public function homepage()
+    public function home()
     {
        $title = "Bienvenue!";
         // For now, this page only needs the view
