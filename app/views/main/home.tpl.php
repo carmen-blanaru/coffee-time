@@ -1,5 +1,4 @@
 
-<h1><?$title?></h1>
 
 <img src="<?=$assetsBaseUri ?>img/business-g0ec60ba24_1920.jpg" class="img-fluid position-relative top-50 start-50 translate-middle-x" alt="image coffee shop" width="800px" height="600px">
                     <p class="text-white fs-4 mt-5 px-5">
