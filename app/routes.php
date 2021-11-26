@@ -12,3 +12,19 @@ $this->addRoute(
     'main-home'
 
 );
+
+$this->addRoute(
+    'GET',
+    '/origine',
+    'MainController',
+    'origin',
+    'main-origin'
+);
+
+$this->addRoute(
+    'GET',
+    '/produit',
+    'MainController',
+    'product',
+    'main-product'
+);

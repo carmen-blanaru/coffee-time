@@ -12,10 +12,10 @@
                             <a class="nav-link" href="<?= $router->generate('main-home')?>">
                                 <button class="btn btn-warning fs-5 me-3 px-4" type="button">Accueil</button>
                             </a>
-                            <a class="nav-link" href="#">
+                            <a class="nav-link" href="<?= $router->generate('main-product')?>">
                                 <button class="btn btn-warning fs-5 me-3 px-4" type="button">Nos cafés</button>
                             </a>
-                            <a class="nav-link" href="#">
+                            <a class="nav-link" href="<?= $router->generate('main-origin')?>">
                                 <button class="btn btn-warning fs-5 me-3 px-4" type="button">Origines</button>
                             </a>
                             <a class="nav-link" href="#">

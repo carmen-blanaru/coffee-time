@@ -16,4 +16,20 @@ class MainController extends CoreController
         // For now, this page only needs the view
        $this->show('main/home');
     }
+
+    /**
+     * Method to show the coffees and cakes page 
+     */
+    public function product()
+    {
+        $this->show('main/coffee');
+    }
+
+    /**
+     * Methode to show the origin page
+     */
+    public function origin()
+    {
+        $this->show('main/origin');
+    }
 }
