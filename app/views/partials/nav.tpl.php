@@ -19,7 +19,7 @@
                                 <button class="btn btn-warning fs-5 me-3 px-4" type="button">Origines</button>
                             </a>
                             <a class="nav-link" href="#">
-                                <button class="btn btn-warning fs-5 me-3 px-4" type="button">Horaires</button>
+                                <button class="btn btn-warning fs-5 me-3 px-4" type="button">Infos pratiques</button>
                             </a>
                             </div>
                         </div>
