@@ -28,3 +28,11 @@ $this->addRoute(
     'product',
     'main-product'
 );
+
+$this->addRoute(
+    'GET',
+    '/information',
+    'MainController',
+    'information',
+    'main-information'
+);

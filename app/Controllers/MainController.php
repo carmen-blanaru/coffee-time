@@ -32,4 +32,11 @@ class MainController extends CoreController
     {
         $this->show('main/origin');
     }
+    /**
+     * Method to show the schedule and the adress
+     */
+    public function information()
+    {
+        $this->show('main/information');
+    }
 }

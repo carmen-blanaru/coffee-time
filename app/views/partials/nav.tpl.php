@@ -18,7 +18,7 @@
                             <a class="nav-link" href="<?= $router->generate('main-origin')?>">
                                 <button class="btn btn-warning fs-5 me-3 px-4" type="button">Origines</button>
                             </a>
-                            <a class="nav-link" href="#">
+                            <a class="nav-link" href="<?= $router->generate('main-information')?>">
                                 <button class="btn btn-warning fs-5 me-3 px-4" type="button">Infos pratiques</button>
                             </a>
                             </div>

@@ -29,6 +29,30 @@ h1
 {
     margin-left: 20em;
 }
+.badge
+{
+    color: #462E01;
+    margin-left: 10em;
+    padding: 2em 4em;
+}
+.adress
+{
+    margin-top: 23em;
+    width: 25rem;
+    
+}
+.information
+{
+    display: flex;
+}
+main div p 
+{
+    font-size: 2em;
+}
+main div p span 
+{
+    display: block;
+}
 
 
 @media (min-width: 320px) and (max-width: 768px)
@@ -52,4 +76,24 @@ h1
     {
         margin-left: 0.5em;
     }
+    .badge
+    {
+        margin-left: 2.5em;
+        padding: 1em;
+        font-size: xx-small;
+    }
+    .information
+    {
+        display: block;
+    }
+    .adress
+    {
+        margin-top: 4em;
+        width: 17rem;
+    }
+    main div p 
+    {
+        font-size: 2.5em;
+    }
+    
 }
