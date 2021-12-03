@@ -3,7 +3,7 @@
 namespace App\Controllers;
 
 use App\Controllers\CoreController;
-
+use App\Model\OriginModel;
 
 class MainController extends CoreController
 {
@@ -30,7 +30,11 @@ class MainController extends CoreController
      */
     public function origin()
     {
-        $this->show('main/origin');
+        $originElement = OriginModel::getOriginData();
+       // dump($originElement);
+        $this->show('main/origin', [
+            'origin' => $originElement
+        ]);
     }
     /**
      * Method to show the schedule and the adress
