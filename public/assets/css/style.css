@@ -53,6 +53,11 @@ main div p span
 {
     display: block;
 }
+.list-inline-item.today
+{
+    font-style: italic;
+    color: forestgreen;
+}
 
 
 @media (min-width: 320px) and (max-width: 768px)

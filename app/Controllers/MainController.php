@@ -4,6 +4,7 @@ namespace App\Controllers;
 
 use App\Controllers\CoreController;
 use App\Model\OriginModel;
+use App\Model\ScheduleModel;
 
 class MainController extends CoreController
 {
@@ -41,6 +42,10 @@ class MainController extends CoreController
      */
     public function information()
     {
-        $this->show('main/information');
+        $data = ScheduleModel::schedule();
+        //dump($data);
+        $this->show('main/information', [
+            'data' => $data,
+        ]);
     }
 }
