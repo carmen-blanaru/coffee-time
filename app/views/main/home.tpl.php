@@ -10,6 +10,6 @@
 
         <img src="<?=$assetsBaseUri ?>img/istockphoto-124954827-612x612.jpg" class="rounded-circle w-50 h-50 position-relative top-50 start-50 translate-middle-x mt-3 mb-3" alt="tasse à café">
             <p class="text-white fs-4 px-5">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut tenetur minima magnam voluptates incidunt quos in, vero, quis illo cumque laborum dolorem ad, nisi vel unde ratione illum perferendis obcaecati.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut tenetur minima magnam voluptates incidunt quos in, vero, quis illo cumque laborum dolorem ad, nisi vel unde ratione illum perferendis obcaecati.
             </p>
            
