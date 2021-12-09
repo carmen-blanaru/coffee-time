@@ -3,6 +3,7 @@
 namespace App\Controllers;
 
 use App\Controllers\CoreController;
+use App\Model\CakeModel;
 use App\Model\OriginModel;
 use App\Model\ScheduleModel;
 
@@ -22,8 +23,11 @@ class MainController extends CoreController
      * Method to show the coffees and cakes page 
      */
     public function product()
-    {
-        $this->show('main/coffee');
+    {   
+        $element = CakeModel::getCakeImage();
+        $this->show('main/coffee', [
+            'cake' => $element
+        ]);
     }
 
     /**
