@@ -38,8 +38,7 @@ h1
 .adress
 {
     margin-top: 23em;
-    width: 25rem;
-    
+    width: 25rem;   
 }
 .information
 {
@@ -62,7 +61,6 @@ main div p span
 {
     font-size: 4rem;
 }
-
 
 @media (min-width: 320px) and (max-width: 768px)
 {
