@@ -6,7 +6,7 @@
 
 $this->addRoute(
     'GET',
-    '/accueil',
+    '/',
     'MainController',
     'home',
     'main-home'
@@ -35,4 +35,11 @@ $this->addRoute(
     'MainController',
     'information',
     'main-information'
+);
+$this->addRoute(
+    'GET',
+    '/mentions-legales',
+    'FooterController',
+    'legalMention',
+    'footer-legalMention'
 );

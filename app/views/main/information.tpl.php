@@ -1,6 +1,6 @@
 <div class="information">
     <ul class="list-unstyled list-inline badge bg-warning text-wrap lh-lg mt-3">
-        <li class="fs-2"> The Coffee Cup est ouvert : </li>
+        <li class="fs-2"> The CoffeeCup est ouvert : </li>
 
         <?php 
 

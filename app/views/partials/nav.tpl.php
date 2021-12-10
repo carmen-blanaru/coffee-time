@@ -1,7 +1,7 @@
 <div class="container">
             <header class="pt-4">
                 <img src="<?=$assetsBaseUri ?>img/istockphoto-1252818926-612x612.jpg" class="img-fluid rounded ms-2 mb-4 logo" alt="logo du site" width="100px" height="100px">
-                    <h1 class="d-inline ps-4 text-white ">The coffee cup</h1>
+                    <h1 class="d-inline ps-4 text-white ">The CoffeeCup</h1>
                     <nav class="navbar navbar-expand-lg navbar-light bg-transparent navigation">
                         <div class="container-fluid">
                         <button class="navbar-toggler bg-warning" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
