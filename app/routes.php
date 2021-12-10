@@ -43,3 +43,10 @@ $this->addRoute(
     'legalMention',
     'footer-legalMention'
 );
+$this->addRoute(
+    'GET',
+    '/cgu',
+    'FooterController',
+    'cgu',
+    'footer-cgu'
+);

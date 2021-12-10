@@ -4,7 +4,7 @@ namespace App\Controllers;
 
 class FooterController extends CoreController
 {
-    public function contactUs()
+    public function contact()
     {
 
     }
@@ -16,6 +16,6 @@ class FooterController extends CoreController
 
     public function cgu()
     {
-
+        $this->show('footer/cgu');
     }
 }

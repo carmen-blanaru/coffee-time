@@ -4,7 +4,7 @@
     <ul class="d-flex justify-content-center list-group list-group-horizontal mt-5 pb-3">
         <li class="list-group-item border-0 bg-transparent fs-4"><a href="#" class="link-warning text-decoration-none">Nous contacter</a></li>
         <li class="list-group-item border-0 bg-transparent fs-4"><a href="<?= $router->generate('footer-legalMention')?>" class="link-warning text-decoration-none">Mentions Légales</a></li>
-        <li class="list-group-item border-0 bg-transparent fs-4"><a href="#" class="link-warning text-decoration-none">CGU</a></li>
+        <li class="list-group-item border-0 bg-transparent fs-4"><a href="<?= $router->generate('footer-cgu')?>" class="link-warning text-decoration-none">CGU</a></li>
     </ul>
     <p class="d-flex justify-content-center text-white fs-6 mb-5 pb-4">
         ©2021 Carmen BLANARU - Tous droits réservés! 
