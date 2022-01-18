@@ -2,18 +2,18 @@
 
 ### Introduction 
 
-C'est un petit projet vitrine d'un coffee shop parisien, totalement fictif. Ce site s'adresse à toutes les personnes qui aiment passer du bon temps avec une bonne tasse de café et une bonne pâtisserie. 
+C'est un petit projet vitrine d'un coffee shop francilien, totalement fictif. Ce site s'adresse à toutes les personnes qui aiment passer du bon temps avec une bonne tasse de café et une bonne pâtisserie. 
 
 ### Les informations du site 
 
 * Page d'accueil présentant le coffee shop et son menu de navigation 
       - Cafés proposés 
-      - Horaires d'ouverture 
+      - Informations pratiques 
       - Origines 
 * Page des cafés 
       - des images des cafés proposés ainsi que leurs prix et une brève description 
       - les pâtisseries proposées 
-* Page des horaires d'ouverture 
+* Page des horaires d'ouverture et de l'adresse 
 * Page `Origines` -> présente les origines des cafés proposés dans le coffee shop 
 
 ### Technologies employées 
