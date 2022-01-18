@@ -6,7 +6,7 @@ class FooterController extends CoreController
 {
     public function contact()
     {
-
+        $this->show('footer/contact');
     }
 
     public function legalMention()

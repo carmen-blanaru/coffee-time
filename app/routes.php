@@ -50,3 +50,10 @@ $this->addRoute(
     'cgu',
     'footer-cgu'
 );
+$this->addRoute(
+    'GET',
+    '/contact',
+    'FooterController',
+    'contact',
+    'footer-contact'
+);

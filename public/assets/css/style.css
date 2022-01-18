@@ -112,5 +112,20 @@ main div p span
         font-size: 1.5rem;
     
     }
-    
+      
+}
+@media (min-width: 320px) and (max-width: 414px)
+{
+    .formInput
+    {
+        width: 250px;
+       margin-left: -0.8rem;
+    }
+}
+@media (min-width: 414px) and (max-width: 600px)
+{
+    .formInput
+    {
+        width: 300px;
+    }
 }
